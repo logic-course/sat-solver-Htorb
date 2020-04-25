@@ -113,7 +113,7 @@
     {
       "name": "check name",
       "setup": "",
-      "run": "./check_name.sh",
+      "run": "/bin/bash ./check_name.sh",
       "input": "",
       "output": "",
       "comparison": "included",
