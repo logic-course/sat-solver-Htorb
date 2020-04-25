@@ -109,6 +109,16 @@
       "comparison": "exact",
       "timeout": 2,
       "points": 1
+    },
+    {
+      "name": "check name",
+      "setup": "",
+      "run": "./check_name.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
     }
   ]
 }
