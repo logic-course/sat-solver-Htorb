@@ -24,8 +24,8 @@ for test in ./tests/test*.txt; do
 	echo -n "Running test $n..."
 
 	# run the solver with a timeout
-	result=$(cat "$test" | timeout -sHUP $TIMEOUT ./"$filename")
-
+	# result=$(cat "$test" | timeout -sHUP $TIMEOUT ./"$filename")
+	time cat "$test" | ./"$filename"
 	if (( $? == 0 )) ; then
 
 		#call the tester if the solution completed within the timeout value
